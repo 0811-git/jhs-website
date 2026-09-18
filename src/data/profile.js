@@ -81,17 +81,17 @@ export const projects = [
     id: 'light-shadow',
     no: '02',
     tag: 'Photography · 视觉创作',
-    title: 'Light × Shadow · 夜景与日常',
-    subtitle: 'Nikon D90 · 城市边缘的切片',
-    desc: '用一台老单反记录城市入夜后的轮廓、雨后的反光和街角偶然的结构。Lightroom 调色后做成分享集，也尝试拍短视频记录生活切片。',
+    title: 'Bricks × Path · 老巷与砖墙',
+    subtitle: 'Nikon D90 · 北方小城的午后',
+    desc: '一台老单反拍下镇海老巷的红砖与光影。爬满藤蔓的砖墙、远处若隐若现的戏台、水泥巷子里的倒影——这些不特别、却值得被记录的东西。Lightroom 调色，剪映剪短片。',
     features: [
-      '夜景 / 街拍 / 自然 / 建筑',
-      'Lightroom 色彩与光影调整',
+      '街拍 / 老建筑 / 自然光',
+      'Lightroom 色彩与影调调整',
       '剪映剪辑日常短片',
       '「Selected Shots」板块收录 9 张'
     ],
     tags: ['Nikon D90', 'Lightroom', '剪映'],
-    cover: `${import.meta.env.BASE_URL}photos/shot-cityscape.jpg`,
+    cover: `${import.meta.env.BASE_URL}photos/shot-brickwall.jpg`,
     accent: '#929292'
   }
 ];
