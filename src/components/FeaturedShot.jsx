@@ -13,7 +13,7 @@ export default function FeaturedShot() {
         <div className="featured__layout">
           <div className="featured__card">
             <TiltedCard
-              imageSrc="/photos/shot-rain.jpg"
+              imageSrc={`${import.meta.env.BASE_URL}photos/shot-rain.jpg`}
               altText="雨夜街道的水洼反光"
               captionText="Reflections on Wet Asphalt · 北仑 · 雨后"
               containerHeight="clamp(420px, 56vh, 620px)"

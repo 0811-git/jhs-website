@@ -74,7 +74,7 @@ export const projects = [
       '深浅主题 + 毛玻璃 UI'
     ],
     tags: ['WPF', 'PowerShell', 'Vibe Coding'],
-    cover: '/photos/shot-widget-deepseek.png',
+    cover: `${import.meta.env.BASE_URL}photos/shot-widget-deepseek.png`,
     accent: '#7c5cff'
   },
   {
@@ -91,21 +91,21 @@ export const projects = [
       '「Selected Shots」板块收录 9 张'
     ],
     tags: ['Nikon D90', 'Lightroom', '剪映'],
-    cover: '/photos/shot-cityscape.jpg',
+    cover: `${import.meta.env.BASE_URL}photos/shot-cityscape.jpg`,
     accent: '#929292'
   }
 ];
 
 export const shots = [
-  { src: '/photos/shot-brickwall.jpg', alt: '砖墙与植被', span: 'tall' },
-  { src: '/photos/shot-rain.jpg', alt: '雨夜街道的反光', span: 'wide' },
-  { src: '/photos/shot-stars.jpg', alt: '仰望星空', span: 'tall' },
-  { src: '/photos/shot-bowl.jpg', alt: '雨中的石钵', span: 'square' },
-  { src: '/photos/shot-glassbuilding.jpg', alt: '玻璃幕墙的弧线', span: 'tall' },
-  { src: '/photos/shot-fu-pillar.jpg', alt: '门廊下的「福」字砖柱', span: 'tall' },
-  { src: '/photos/shot-grass.jpg', alt: '阳光穿过绿叶', span: 'wide' },
-  { src: '/photos/shot-waterfront.jpg', alt: '水边的城市灯影', span: 'square' },
-  { src: '/photos/shot-toiletsign.jpg', alt: '夜晚的街角指引', span: 'wide' }
+  { src: `${import.meta.env.BASE_URL}photos/shot-brickwall.jpg`, alt: '砖墙与植被', span: 'tall' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-rain.jpg`, alt: '雨夜街道的反光', span: 'wide' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-stars.jpg`, alt: '仰望星空', span: 'tall' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-bowl.jpg`, alt: '雨中的石钵', span: 'square' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-glassbuilding.jpg`, alt: '玻璃幕墙的弧线', span: 'tall' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-fu-pillar.jpg`, alt: '门廊下的「福」字砖柱', span: 'tall' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-grass.jpg`, alt: '阳光穿过绿叶', span: 'wide' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-waterfront.jpg`, alt: '水边的城市灯影', span: 'square' },
+  { src: `${import.meta.env.BASE_URL}photos/shot-toiletsign.jpg`, alt: '夜晚的街角指引', span: 'wide' }
 ];
 
 export const navLinks = [

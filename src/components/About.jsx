@@ -12,7 +12,7 @@ export default function About() {
 
         <div className="about__grid">
           <div className="about__media">
-            <img src="/photos/avatar.jpg" alt={`${profile.name} 的肖像照`} />
+            <img src={`${import.meta.env.BASE_URL}photos/avatar.jpg`} alt={`${profile.name} 的肖像照`} />
             <span className="about__caption">{profile.name} / {profile.nickname} · 2026</span>
           </div>
 
