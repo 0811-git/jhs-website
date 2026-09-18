@@ -6,13 +6,16 @@ import FeaturedShot from './components/FeaturedShot.jsx';
 import SelectedShots from './components/SelectedShots.jsx';
 import Strengths from './components/Strengths.jsx';
 import Contact from './components/Contact.jsx';
+import ErrorBoundary from './components/ErrorBoundary.jsx';
 
 export default function App() {
   return (
     <>
       <Navbar />
       <main>
-        <Hero />
+        <ErrorBoundary fallback={<div className="hero hero--fallback" aria-hidden="true" />}>
+          <Hero />
+        </ErrorBoundary>
         <About />
         <Projects />
         <FeaturedShot />
